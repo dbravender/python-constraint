@@ -18,4 +18,5 @@ python-constraint is a module implementing support for handling CSPs
 (Constraint Solving Problems) over finite domains.
 """,
       py_modules = ["constraint"],
+      install_requires=['six'],
       )
